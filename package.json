@@ -1,0 +1,33 @@
+{
+  "name": "testevent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "bytecode-utils": "^1.1.0",
+    "ethjs-provider-http": "^0.1.6",
+    "ethjs-query": "^0.3.8",
+    "ethjs-signer": "^0.1.1",
+    "solc": "0.5.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okex/crv-farmer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okex/crv-farmer/issues"
+  },
+  "homepage": "https://github.com/okex/crv-farmer#readme"
+}
