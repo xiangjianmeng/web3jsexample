@@ -16,7 +16,9 @@
     "ethjs-signer": "^0.1.1",
     "solc": "0.5.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.4.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

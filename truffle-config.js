@@ -43,10 +43,10 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      provider: () => new HDWalletProvider("giggle sibling fun arrow elevator spoon blood grocery laugh tortoise culture tool",`https://exchaintestrpc.okex.org`),
-      // host: "127.0.0.1",     // Localhost (default: none)
-      // port: 8545,            // Standard Ethereum port (default: none)
-      network_id: "65",       // Any network (default: none)
+      // provider: () => new HDWalletProvider("giggle sibling fun arrow elevator spoon blood grocery laugh tortoise culture tool",`https://exchaintestrpc.okex.org`),
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
     },
     // Another network with more advanced options...
     // advanced: {
